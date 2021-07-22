@@ -1,0 +1,67 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F8F8FF;
+    overflow-x: hidden;
+}
+/* utilities */
+h1, h2, h3, h1 span, h2 span {
+    font-family: 'Poppins', sans-serif;
+}
+p, span, a {
+    font-family: 'Roboto', sans-serif;
+}
+.red-text {
+    color: #FF3131;
+}
+/* components */
+.my-btn-primary {
+    background: linear-gradient( #FFADAD 10%, #FF0000 );
+    border-radius: 30px;
+    padding: 16px 24px;
+    border: none;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.my-btn-primary:hover {
+    color: #EEEEEE;
+    text-decoration: none;
+    box-shadow: 0 5px 20px rgba(255, 49, 49, 0.4);
+}
+.heading-section {
+    font-weight: 700;
+    font-size: 48px;
+}
+/* navbar */
+nav .container {
+    padding: 0 15px !important;
+}
+nav.navbar {
+    background-color: #F8F8FF;
+    padding: 35px 0;
+    transition: .4s;
+}
+nav.scrolled {
+    padding: 15px 0;
+    box-shadow: 0 5px 20px -10px rgba(0, 0, 0, 0.2);
+}
+/* Footer */
+footer {
+    padding: 50px 0;
+    border-top: 2px solid #DDDDDD;
+}
+@media (max-width: 767.98px) {
+    .hero h1 {
+        font-size: 42px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .heading-section {
+        font-size: 32px;
+    }
+}
