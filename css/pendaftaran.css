@@ -19,6 +19,7 @@
     padding: 20px 34px;
     border-radius: 80px;
     border: none;
+    width: 100%;
 }
 .input-group input:focus-visible {
     outline: none;
@@ -41,6 +42,9 @@ input[type=date]:invalid::-webkit-datetime-edit {
     border-radius: 30px;
     transform: translateY(-50px);
     box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15);
+}
+.kontak a {
+    color: #000000;
 }
 
 @media (max-width: 767.98px) {
