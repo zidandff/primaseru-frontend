@@ -1,10 +1,10 @@
+// AOS Initzilation
+AOS.init({
+    startEvent: 'DOMContentLoaded',
+    duration: 1000,
+});
+
 // Tanggal jadwal gelombang
-// const regular1 = new Date('Aug 1, 2021 00:00:00').getTime();
-// const reguler1End = new Date('Dec 29, 2021 24:00:00').getTime();
-// const regular2 = new Date('Jan 1, 2022 00:00:00').getTime();
-// const reguler2End = new Date('Mar 29, 2022 24:00:00').getTime();
-// const regular3 = new Date('Apr 1, 2022 00:00:00').getTime();
-// const reguler3End = new Date('Jun 29, 2022 24:00:00').getTime();
 const reguler1 = new Date('Jul 24, 2021 00:00:00').getTime();
 const reguler1End = new Date('Dec 31, 2021 24:00:00').getTime();
 const reguler2 = new Date('Jan 1, 2022 00:00:00').getTime();
@@ -16,13 +16,10 @@ setInterval(() => {
     const now = new Date().getTime();
     if(now > reguler1 && now < reguler1End){
         countdown(now, reguler1End)
-        console.log(1);
     } else if(now > reguler2 && now < reguler2End){
         countdown(now, reguler2End)
-        console.log(2);
     } else if(now >= reguler3 && now <= reguler3End){
         countdown(now, reguler3End)
-        console.log(3);
     } else {
         resetCountdown();
         console.log('error');
