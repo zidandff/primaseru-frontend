@@ -5,7 +5,7 @@ AOS.init({
 });
 
 // Tanggal jadwal gelombang
-const reguler1 = new Date('Jul 24, 2021 00:00:00').getTime();
+const reguler1 = new Date('Aug 1, 2021 00:00:00').getTime();
 const reguler1End = new Date('Dec 31, 2021 24:00:00').getTime();
 const reguler2 = new Date('Jan 1, 2022 00:00:00').getTime();
 const reguler2End = new Date('Mar 31, 2022 24:00:00').getTime();
@@ -15,7 +15,7 @@ const reguler3Plus = new Date('Jul 1, 2022 00:00:00').getTime();
 const reguler3PlusEnd = new Date('Jul 31, 2022 24:00:00').getTime();
 
 const cdTitle = document.getElementById('cd-title');
-const strReguler1 = "Jalur prestasi & Reguler 1 <br> Sedang Dibuka sampai"
+const strReguler1 = "Jalur Prestasi & Reguler 1 <br> Sedang Dibuka Sampai"
 const strReguler2 = "Reguler 2 Sedang Dibuka sampai"
 const strReguler3 = "Reguler 3 Sedang Dibuka sampai"
 const strReguler3Plus = "Reguler 3+ Sedang Dibuka sampai"
